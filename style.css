@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  background-color: #C70039;
+  border-bottom: 2px solid #333;
+}
+
+header p {
+  color: #fff;
+  box-sizing: border-box;
+}
+.main {
+  min-height: 600px;
+  background-color: #232323;
+}
+
+.container {
+  margin:0 auto;
+  width:50%;
+  background-color: #232323;
+  padding: 0px 12px;
+  box-sizing: border-box;
+}
+
+.judul {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  height: 50px;
+  width: 40%;
+  background-color: #C70039;
+  box-sizing: border-box;
+}
+
+input {
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  width: 40%;
+}
+
+.container h1 {
+  padding-top:15px;
+  font-size: 25px;
+}
+
+.Silinder h1, .Kerucut h1, .Bola h1 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 5px 0;
+  margin: 20px 0;
+}
+
+.container p {
+  padding-top:10px;
+  font-size:15px;
+  color:white;
+}
+
+.main{
+  color:white;
+}
+
+.Silinder p , .Kerucut p, .Bola p{
+  display: inline-block;
+}
+
+.Silinder h2, .Kerucut h2, .Bola h2{
+  font-size: 25px;
+}
+
+.Bola {
+  padding-bottom: 30px;
+}
+#tabungA {
+  margin-left:50px;
+}
+
+#tabung {
+  margin-left:40px;
+}
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+#topiB {
+  margin-left: 35px;
+}
+
+#topiC {
+  margin-left: 45px;
+}
+
+#topi {
+  margin-left: 5px;
+}
+
+#bulet {
+  margin-left: 50px;
+}
+
+.hitung {
+  text-align: center;
+}
+
+.button {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.message {
+  padding: 10px 30px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  height: 50px;
+  background-color: #C70039;
+}
+
+footer img {
+  height: 20px;
+  float:right;
+  padding:10px 5px;
+}
+
+footer p {
+  float:right;
+  padding:10px 5px;
+}
+
+footer .header-left {
+  float: center;
+  font-family: "Times New Roman";
+}
